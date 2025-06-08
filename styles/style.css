@@ -247,7 +247,6 @@ nav {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-    /* Esto es importante */
     display: flex;
     flex-direction: column;
 }
@@ -424,6 +423,19 @@ p span {
     cursor: pointer;
     margin-top: 15px;
     width: 100%;
+    margin-top: auto;
+    
+}
+.container-gris {
+    background-color: #F5F5F5;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    position: relative;
+    left: -50px;
+    width: calc(125% + 50px);
+    
 }
 
 .boton2 button {
