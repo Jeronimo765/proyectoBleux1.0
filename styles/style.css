@@ -249,7 +249,11 @@ nav {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: none;
 }
+
+
 
 .img1 {
     text-align: center;
@@ -287,6 +291,20 @@ nav {
     left: -50px;
     width: calc(125% + 50px);
 }
+.plan-card, .plan-standard, .plan-ultimate {
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}.container-gris1, .container-gris2, .container-gris3 {
+    background-color: #F5F5F5;
+    padding: 20px 40px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 80px; /* <-- Aumentado para bajar más */
+    width: 300px;
+    position: relative;
+    left: 0;
+}
+
 
 .gris2 h3 {
     color: black;
@@ -328,12 +346,14 @@ nav {
     color: black;
 }
 
-.img1 {
-    width: 160px;   /* Puedes cambiar este valor */
+.img1 img {
+    width: 90px;
     height: auto;
 }
-.img3 {
 
+.img3 img {
+    width: 90px;
+    height: auto;
 }
 
 .precio1 span {
