@@ -329,7 +329,10 @@ nav {
 }
 
 .img1 {
-    text-align: center;
+    width: 160px;   /* Puedes cambiar este valor */
+    height: auto;
+}
+.img3 {
 
 }
 
@@ -419,6 +422,21 @@ p span {
     color: #1D142F;
 }
 
+.sup {
+    color: #808080;
+    font-size: 15px;
+}
+
+.sup1 {
+    color: #808080;
+    font-size: 15px;
+}
+
+.sup2 {
+    color: #808080;
+    font-size: 15px;
+}
+
 .boton1 button {
     background: linear-gradient(to right, #EC5FA7, #F31C8A);
     border: none;
@@ -434,7 +452,7 @@ p span {
 }
 
 .container-gris1 {
-  background-color: #F5F5F5;
+    background-color: #F5F5F5;
     padding: 10px 40px;
     text-align: center;
     margin-top: 6%;
