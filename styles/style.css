@@ -265,6 +265,7 @@ nav {
     left: -50px;
     width: calc(125% + 50px);
 }
+
 .gris2 {
     background-color: #F5F5F5;
     padding: 10px 0;
@@ -275,6 +276,7 @@ nav {
     left: -50px;
     width: calc(125% + 50px);
 }
+
 .gris3 {
     background-color: #F5F5F5;
     padding: 10px 0;
@@ -285,6 +287,7 @@ nav {
     left: -50px;
     width: calc(125% + 50px);
 }
+
 .gris2 h3 {
     color: black;
 }
@@ -302,10 +305,12 @@ nav {
     font-size: 25px;
     font-weight: lighter;
 }
+
 .precio2 {
     font-size: 25px;
     font-weight: lighter;
 }
+
 .precio3 {
     font-size: 25px;
     font-weight: lighter;
@@ -347,6 +352,7 @@ nav {
     margin: 0 auto;
     text-align: center;
 }
+
 .p2 {
     text-align: center;
     width: 230px;
@@ -424,30 +430,19 @@ p span {
     margin-top: 15px;
     width: 100%;
     margin-top: auto;
-    
+
 }
-.container-gris {
-    background-color: #F5F5F5;
-    padding: 10px 0;
+
+.container-gris1 {
+  background-color: #F5F5F5;
+    padding: 10px 40px;
     text-align: center;
     margin-top: 6%;
     margin-bottom: 6%;
     position: relative;
     left: -50px;
     width: calc(125% + 50px);
-    
-}
 
-.boton2 button {
-    background: #2E2550;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-    padding: 20px 25px;
-    cursor: pointer;
-    margin-top: 15px;
-    width: 100%;
 }
 
 .boton3 button {
@@ -460,6 +455,42 @@ p span {
     cursor: pointer;
     margin-top: 15px;
     width: 100%;
+}
+
+.container-gris2 {
+    background-color: #F5F5F5;
+    padding: 10px 40px;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    position: relative;
+    left: -50px;
+    width: calc(125% + 50px);
+}
+
+.boton3 button {
+    background: #2E2550;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 20px 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    margin-top: auto;
+}
+
+
+.container-gris3 {
+    background-color: #F5F5F5;
+    padding: 10px 40px;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    position: relative;
+    left: -50px;
+    width: calc(125% + 50px);
 }
 
 footer {
