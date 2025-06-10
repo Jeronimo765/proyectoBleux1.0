@@ -49,19 +49,24 @@ nav {
     min-height: 100vh;
     justify-items: end;
     align-content: center;
+   
 }
 
 .product-page h1 {
     color: white;
     align-items: center;
-    font-size: 60px;
+    font-size: 90px;
+    margin-left: -70px;
 
 }
 
 .product-page p {
     color: white;
+    margin-left: -70px;
 }
-
+.p{
+    margin-left: -70px;
+}
 .hoja {
     background-image: url(../assets/images/hojasFondo.jpg);
     width: 50%;
@@ -89,11 +94,12 @@ nav {
     cursor: pointer;
     border-radius: 4px;
     font-weight: bold;
+     
 }
-
 .botones button:first-child {
     background-color: white;
-    color: #e60073;
+    color: #F41586;
+    margin-left: -70px;
 }
 
 .botones button:last-child {
@@ -175,8 +181,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
+    gap: 40px;
+    margin-top: 20px;
 }
 
 .plan-card {
@@ -279,6 +285,7 @@ nav {
     position: relative;
     left: -50px;
     width: calc(125% + 50px);
+    margin-top: -10px;
 }
 
 .gris3 {
@@ -296,16 +303,13 @@ nav {
   margin-bottom: 0;
 
 }.container-gris1, .container-gris2, .container-gris3 {
-    background-color: #F5F5F5;
-    padding: 20px 40px;
-    border-radius: 0 0 10px 10px;
-    margin-top: 80px; /* <-- Aumentado para bajar más */
-    width: 300px;
-    position: relative;
-    left: 0;
+  background-color: #F5F5F5;
+  padding: 20px 40px;
+  border-radius: 0 0 10px 10px; 
+  margin-top: 20px;
+  margin-bottom: 50px; 
+  width: 100%;
 }
-
-
 .gris2 h3 {
     color: black;
 }
