@@ -107,7 +107,6 @@ nav {
     color: white;
     border: 1px solid white;
 }
-
 .funcionalidades {
     display: flex;
     justify-content: center;
@@ -118,7 +117,7 @@ nav {
 }
 
 .funcionalidades img {
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 
@@ -128,7 +127,6 @@ nav {
     font-size: 60px;
     position: relative;
     top: -120px;
-    /* Súbelo */
 }
 
 .funcionalidades h2 {
