@@ -56,16 +56,16 @@ nav {
     color: white;
     align-items: center;
     font-size: 90px;
-    margin-left: -70px;
+    margin-left: -1px;
 
 }
 
 .product-page p {
     color: white;
-    margin-left: -70px;
+    margin-left: -1px;
 }
 .p{
-    margin-left: -70px;
+    margin-left: -1px;
 }
 .hoja {
     background-image: url(../assets/images/hojasFondo.jpg);
@@ -99,7 +99,7 @@ nav {
 .botones button:first-child {
     background-color: white;
     color: #F41586;
-    margin-left: -70px;
+    margin-left: -1px;
 }
 
 .botones button:last-child {
