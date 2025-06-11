@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
 }
 
@@ -49,7 +49,7 @@ nav {
     min-height: 100vh;
     justify-items: end;
     align-content: center;
-   
+
 }
 
 .product-page h1 {
@@ -64,9 +64,11 @@ nav {
     color: white;
     margin-left: -1px;
 }
-.p{
+
+.p {
     margin-left: -1px;
 }
+
 .hoja {
     background-image: url(../assets/images/hojasFondo.jpg);
     width: 50%;
@@ -94,8 +96,9 @@ nav {
     cursor: pointer;
     border-radius: 4px;
     font-weight: bold;
-     
+
 }
+
 .botones button:first-child {
     background-color: white;
     color: #F41586;
@@ -107,32 +110,39 @@ nav {
     color: white;
     border: 1px solid white;
 }
+
 .funcionalidades {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px 120px;
+    padding: 120px 120px;
     gap: 60px;
     background-color: #f6f6fb;
 }
-
-.funcionalidades img {
-    width: 500px;
+.imagen-funcionalidad img {
+    position: relative;
+    top: 90px;       
+    left: 250px;      
     height: auto;
+    width: 500px;
 }
-
+.funcionalidades {
+    padding-top: 0;
+    margin-top: 0;
+}
 .funcionalidades h1 {
     color: #E62882;
     text-align: center;
-    font-size: 60px;
-    position: relative;
-    top: -120px;
+    font-size: 50px;
+    margin: 0 0 300px 0;
+    width: 100%;
 }
 
 .funcionalidades h2 {
-    color: #CB8AAC;
+    color: #C13E81;
     font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 32px;
+    margin-bottom: 40px;
 }
 
 .funcionalidades h3 {
@@ -151,6 +161,15 @@ nav {
     color: #e60073;
     margin-right: 8px;
 }
+.texto-funcionalidad {
+    position: relative;
+    top: 70px;    
+    left: 30px;   
+    max-width: 400px;
+    transform: translateX(-300px); /*Ayuda al texto a correrlo a la izquierda*/
+    margin: 15px;
+}
+
 
 .plans h1 {
     color: white;
@@ -296,18 +315,26 @@ nav {
     left: -50px;
     width: calc(125% + 50px);
 }
-.plan-card, .plan-standard, .plan-ultimate {
-  padding-bottom: 0;
-  margin-bottom: 0;
 
-}.container-gris1, .container-gris2, .container-gris3 {
-  background-color: #F5F5F5;
-  padding: 20px 40px;
-  border-radius: 0 0 10px 10px; 
-  margin-top: 20px;
-  margin-bottom: 50px; 
-  width: 100%;
+.plan-card,
+.plan-standard,
+.plan-ultimate {
+    padding-bottom: 0;
+    margin-bottom: 0;
+
 }
+
+.container-gris1,
+.container-gris2,
+.container-gris3 {
+    background-color: #F5F5F5;
+    padding: 20px 40px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
 .gris2 h3 {
     color: black;
 }
@@ -547,7 +574,9 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-
+.span .fo{
+    color: #E972AE;
+}
 footer i {
     color: #3F3F3F;
     margin-left: 10px;
