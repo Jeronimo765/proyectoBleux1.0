@@ -35,12 +35,7 @@ nav {
     color: white;
     border: none;
     background: linear-gradient(to right, #7f00ff, #00c6ff);
-    cursor: pointer;
     padding: 10px 30px;
-}
-
-.boto:hover {
-    transform: scale(1.05);
 }
 
 .product-page {
@@ -57,12 +52,12 @@ nav {
     align-items: center;
     font-size: 90px;
     margin-left: -1px;
-
 }
 
 .product-page p {
     color: white;
     margin-left: -1px;
+
 }
 
 .p {
@@ -77,12 +72,17 @@ nav {
     justify-content: center;
     align-items: flex-start;
     padding-top: 80px;
+
 }
 
 .hoja img {
-    width: 35%;
+    width: 30%;
     max-width: 400px;
     height: auto;
+    margin-top: 120px;
+    /* La baja un poco */
+    margin-left: -320px;
+    /* La corre un poquito a la izquierda */
 }
 
 .caja {
@@ -122,40 +122,45 @@ nav {
     margin-top: 0;
 }
 
-.content-funcionalidad{
+.content-funcionalidad {
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 20px;
 }
 
-.imagen-funcionalidad{
+.imagen-funcionalidad {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.imagen-funcionalidad img {      
+.imagen-funcionalidad img {
     height: auto;
     width: 500px;
 }
+
 .funcionalidades h1 {
     color: #E62882;
     text-align: center;
     font-size: 50px;
     width: 100%;
+    padding-top: 20px;
 }
+
 .funcionalidades h2 {
     color: #C13E81;
     font-size: 32px;
     font-size: 32px;
     margin-bottom: 40px;
 }
+
 .funcionalidades h3 {
     color: #D51F76;
     font-size: 24px;
     margin-top: 20px;
 }
+
 .funcionalidades p {
     margin: 6px 0;
     font-size: 16px;
@@ -166,6 +171,7 @@ nav {
     color: #e60073;
     margin-right: 8px;
 }
+
 .texto-funcionalidad {
     max-width: 400px;
     margin: 15px;
@@ -277,8 +283,6 @@ nav {
     max-width: none;
 }
 
-
-
 .img1 {
     text-align: center;
 }
@@ -322,7 +326,6 @@ nav {
 .plan-ultimate {
     padding-bottom: 0;
     margin-bottom: 0;
-
 }
 
 .container-gris1,
@@ -396,7 +399,6 @@ nav {
     font-size: 14px;
     color: #1E1E1E;
     margin-left: 10px;
-
 }
 
 .p1 {
@@ -430,7 +432,6 @@ nav {
     margin-left: 10px;
 }
 
-
 .img3 {
     text-align: center;
 }
@@ -450,7 +451,9 @@ nav {
 .plan-card i {
     color: #F41486;
     margin-right: 10px;
-
+}
+.plan-card i.b {
+    color: #1D142F;
 }
 
 p {
@@ -494,11 +497,9 @@ p span {
     color: white;
     font-weight: bold;
     padding: 20px 25px;
-    cursor: pointer;
     margin-top: 15px;
     width: 100%;
     margin-top: auto;
-
 }
 
 .container-gris1 {
@@ -510,7 +511,6 @@ p span {
     position: relative;
     left: -50px;
     width: calc(125% + 50px);
-
 }
 
 .boton3 button {
@@ -520,7 +520,6 @@ p span {
     color: white;
     font-weight: bold;
     padding: 20px 25px;
-    cursor: pointer;
     margin-top: 15px;
     width: 100%;
 }
@@ -549,7 +548,6 @@ p span {
     margin-top: auto;
 }
 
-
 .container-gris3 {
     background-color: #F5F5F5;
     padding: 10px 40px;
@@ -575,6 +573,7 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
 footer i {
     color: #3F3F3F;
     margin-left: 10px;
