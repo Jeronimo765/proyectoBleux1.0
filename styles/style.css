@@ -573,7 +573,9 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
-
+.mivfx {
+    color: #d6428c;
+}
 footer i {
     color: #3F3F3F;
     margin-left: 10px;
